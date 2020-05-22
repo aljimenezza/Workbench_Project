@@ -5,6 +5,6 @@ README.md: guessinggame.sh
 
 	echo "# UNIX WORKBENCH PROJECT BY ALEJANDRO JIMÉNEZ ZAPATA" >> README.md
 
-	echo "## El archivo se creó en" `date` >> README.md
+	echo "## The file was created" `date` >> README.md
 
-	echo "Este script contiene" `cat guessinggame.sh | wc -l` "líneas de código" >> README.md
+	echo "This script has" `cat guessinggame.sh | wc -l` "code lines" >> README.md
